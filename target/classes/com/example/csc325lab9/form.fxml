@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane opacity="0.76" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: white; -fx-border-color: darkgreen; -fx-background-insets: 20; -fx-border-width: 20;" />
+      <VBox alignment="CENTER" layoutX="3.0" prefHeight="400.0" prefWidth="300.0" spacing="30.0">
+         <children>
+            <Label fx:id="firstName" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" text="Name">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lastName" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" text="Last">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="email" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" text="Email">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="dateOfBirth" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" text="Dob">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="zipCode" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" text="Zip">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</Pane>
